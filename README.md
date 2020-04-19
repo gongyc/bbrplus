@@ -40,6 +40,10 @@ wget https://github.com/cx9208/bbrplus/raw/master/centos7/x86_64/kernel-4.14.129
 3.  
 安装内核  
 yum install -y kernel-4.14.129-bbrplus.rpm  
+或  
+rpm -ivh kernel-4.14.129-bbrplus.rpm  
+说明：
+此处cx9208大佬的脚本在我其中一台vps中内核会安装失败，故在本脚本中，我将其改成了rpm -ivh的安装方式
 
 4.  
 切换启动内核  
